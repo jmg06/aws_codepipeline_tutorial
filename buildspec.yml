@@ -6,6 +6,8 @@ phases:
       python: 3.13
   pre_build:
     commands:
+      - echo Hello World!
+      - echo Entered the pre_build phase...
       - pip install -r requirements-dev.txt
   build:
     commands:
